@@ -1,10 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
 import styled from 'styled-components'
+import Header from './components/Header'
 
 function App() {
   return (
     <AppWrapper>
+      <Header />
       <h1>Rede social em foto MERN</h1>
     </AppWrapper>
   );
